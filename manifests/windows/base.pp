@@ -1,3 +1,3 @@
 class roles::windows::base {
-  notify{'Testing Windows base role':}
+  include profiles::os::windows::base_windows
 }
